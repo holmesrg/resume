@@ -1,9 +1,8 @@
-.mainstyle {
-font-variant: Helvetica;
-font-size: 8px;
+body {
+font-family: Helvetica;
 }
 
 .headline {
-font-variant: Helvetica;
+font-family: Helvetica;
 font-size: 18px;
 }
