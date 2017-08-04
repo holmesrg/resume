@@ -1,0 +1,11 @@
+*.sw*
+*~
+build/
+bin/
+node_modules/
+/vendor/
+.idea/
+.DS_store
+global.css
+button.css
+z-index.css
