@@ -1,7 +1,9 @@
-body {
+.container {
   font-family: Verdana;
   color: #373d3f;
   margin: 0;
+  font-size: 12px;
+  min-width: 480px;
 }
 
 /* Header */
@@ -12,17 +14,11 @@ header {
   border-top: 5px solid #5d8aa8;
   width: 100%;
   z-index: 1;
-  display: flex;
-  align-items: center;
   height: 100px;
 }
 
 .photo {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
   padding-left: 30px;
-
 }
 
 img {
@@ -31,102 +27,23 @@ img {
   height: 150px;
 }
 
-.contact {
-  border-left: 1px solid #c1c7c9;
-  color: #5d8aa8;
-  font-size: 15px;
-  margin: 20px 20px;
-  padding: 20px;
-  flex-grow: 1;
-
-}
-
 .contact p {
   display: inline-block;
+	right: 0px;  
 }
 
-/*
-header {
-  position: fixed;
-  background-color: #dadedf;
-  border-bottom: 1px solid #c1c7c9;
-  border-top: 5px solid #5d8aa8;
-  width: 100%;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  height: 100px;
-}
-
-.title {
-  justify-content: flex-start;
-}
-
-.headline {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
+.jumbotron {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
-.contact {
-  border-left: 1px solid #c1c7c9;
-  color: #5d8aa8;
-  font-size: 15px;
-  margin: 5px 20px;
-  padding: 20px;
-  flex-grow: 1;
-
-}
-
-.img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-*/
-
-/*Main*/
-
-.profile {
-  font-size: 15px;
-  margin-top: 100px;
-  padding: 20px;
-  border: 1px double #c1c7c9;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  padding-top: 100px;
-}
-
-.columns {
-  display:flex;
-  flex-direction: row;
-
-}
-
-.key {
-  border: 1px solid #c1c7c9;
-  margin: 20px;
-  padding: 20px;
-  width: 80%;
-}
-
-.career {
-  border: 1px solid #c1c7c9;
-  margin: 20px;
-  padding: 20px;
-  width: 20%;
-}
-
-.other {
-  border: 1px double #c1c7c9;
-  margin: 20px;
-  padding: 20px;
-}
+@media (min-width:992px)
+    {
+        .container{width:960px}
+    }
+    
+@media (min-width:1200px)
+    {
+        .container{width:960px}
+    }
