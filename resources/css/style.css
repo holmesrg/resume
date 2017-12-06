@@ -32,6 +32,12 @@ img {
 	right: 0px;  
 }
 
+
+
+h2, h4 {
+  color: #373d3f;
+}	
+
 .jumbotron {
 	padding-top: 10px;
 	padding-bottom: 10px;
